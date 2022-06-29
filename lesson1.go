@@ -18,11 +18,11 @@ import(
 // }
 
 //practice writing statements
-// func main() {
-// 	fmt.Println("My name is Barbara")
-// 	fmt.Println("I live in Augusta")
-// 	fmt.Println("I like playing bball")
-// }
+func main() {
+	fmt.Println("My name is Barbara")
+	fmt.Println("I live in Augusta")
+	fmt.Println("I like playing bball")
+}
 
 //In Go, a statement must end in a semicolon or in one of the following tokens:
 // an identifier
@@ -40,45 +40,45 @@ import(
 // Go is case sensitive 
 //Go's name convention is either camleCase or PascalCase
 
-// func main() {
-	// fmt.Println("Enter your name")
-	// var firstName string
+func main() {
+	fmt.Println("Enter your name")
+	var firstName string
 	
-	// fmt.Scanln(&firstName) //Scanln asks user for input and saves it to firstName
-	// fmt.Println(firstName)
+	fmt.Scanln(&firstName) //Scanln asks user for input and saves it to firstName
+	fmt.Println(firstName)
 
-	// var address string
-	// // var zipcode int
-	// fmt.Println("enter address")
-	// fmt.Scanln(&address)
-	// // fmt.Scanln(&zipcode)
+	var address string
+	// var zipcode int
+	fmt.Println("enter address")
+	fmt.Scanln(&address)
+	// fmt.Scanln(&zipcode)
 
-	// fmt.Print("addrss is:" + " " + address)
+	fmt.Print("addrss is:" + " " + address)
 
-	//var lastName string = "Cena"  // this is a static type declaration 
-	//fmt.Println(lastName)
-	// var favNum = 29
-	// fmt.Print(&favNum)   the & will access the memory location of the data
+	var lastName string = "Cena"  // this is a static type declaration 
+	fmt.Println(lastName)
+	var favNum = 29
+	fmt.Print(&favNum)  // the & will access the memory location of the data
 	
 	//declaring multipe varibales:
-	// var message, email, location string
-	// message = "multiple variables"
-	// email = "jdkfj@jdi.com"
-	// location = "123 abc"
-	// fmt.Println(message, email, location)
+	var message, email, location string
+	message = "multiple variables"
+	email = "jdkfj@jdi.com"
+	location = "123 abc"
+	fmt.Println(message, email, location)
 
 
 
 // dynamic type declaration is where the complier will infer the type based on an assigned value
-// identifier := initial_value
-	// email := "john@cena.com"
-	// fmt.Print(email)
+identifier := initial_value
+	email := "john@cena.com"
+	fmt.Print(email)
 //cannot use := and var togther
-//var email := "djofj@goej.ocm" //this will throw an error
-//dyamic type also allows:
-// var message, year = "hello", 20
+var email := "djofj@goej.ocm" //this will throw an error
+dyamic type also allows:
+var message, year = "hello", 20
 
-//}
+}
 
 
 func main() {
